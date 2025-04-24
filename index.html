@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pune Waste Management | Book Scrap Pickup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>♻️ Pune Waste Management</h1>
+        <p>Book doorstep scrap pickup in Pune</p>
+        
+        <form id="bookingForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="tel" id="phone" placeholder="WhatsApp Number" required>
+            <textarea id="address" placeholder="Full Address (Society/Building)" required></textarea>
+            
+            <div class="waste-types">
+                <label>Select Waste Types:</label>
+                <div>
+                    <input type="checkbox" id="paper" name="waste" value="Paper">
+                    <label for="paper">Paper</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="plastic" name="waste" value="Plastic">
+                    <label for="plastic">Plastic</label>
+                </div>
+                <!-- Add more waste types as needed -->
+            </div>
+            
+            <input type="date" id="date" required>
+            <button type="submit">Book Pickup</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
