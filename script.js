@@ -22,7 +22,7 @@ document.getElementById('bookingForm').addEventListener('submit', function(e) {
                     `Preferred Date: ${date}`;
     
     // Redirect to WhatsApp (REPLACE WITH YOUR NUMBER)
-    window.open(`https://wa.me/919876543210?text=${message}`, '_blank');
+    window.open(`https://wa.me/918329144372?text=${message}`, '_blank');
     
     // Show confirmation
     alert('Booking request sent! Our team will contact you shortly on WhatsApp.');
